@@ -14,7 +14,7 @@ const About=()=>{
         <>
         <div className='outer'>
             <div className='inner'>
-        <input className='input' type='text'  onChange={inputEvent} value={img} placeholder='Search here'/>
+        <input className='input' type='text'  onChange={inputEvent} value={img} placeholder='Enter your desired photo name here'/>
         {img===' '?null: <Sresult name={img}/>}
             </div>
         </div>
